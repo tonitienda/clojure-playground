@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/toni/Projects/clojure-playground'
+docker build . -t clojure-playground
+docker run clojure-playground
+make: Leaving directory `/Users/toni/Projects/clojure-playground'
+ 

@@ -1,0 +1,8 @@
+{
+	"name": "Clojure",
+	"dockerFile": "Dockerfile",
+	"extensions": [
+	],
+	"settings":{
+	}
+}
