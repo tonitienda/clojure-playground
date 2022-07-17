@@ -1,8 +1,12 @@
 (ns hello-world.core
   (:require 
     [clojure.spec.alpha :as s]
-    [clojure.spec.test.alpha :as st])
+    [clojure.spec.test.alpha :as st]
+    [clojure.test :as test])
 )
+
+(test/deftest eg-tests (is (= 1 1)))
+(run-tests)
 
 (defn add-test[x y]
   (+ x y)
